@@ -4,7 +4,7 @@ exports.up = function(knex) {
 
         table.string('title').notNullable();
         table.string('description').notNullable();
-        table.decimal('value').notNullable();
+        table.string('adress').notNullable();
         
         table.string('ong_id').notNullable();
 
